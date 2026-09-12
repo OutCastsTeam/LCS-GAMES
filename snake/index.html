@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Змейка</title>
+  <link rel="stylesheet" href="snake.css">
+</head>
+<body>
 
+  <div class="game-wrap">
+    <div class="hud">
+      <div class="score-box">
+        <div class="score-label">Счёт</div>
+        <div class="score-value" id="score">0</div>
+      </div>
+      <div class="score-box">
+        <div class="score-label">Рекорд</div>
+        <div class="score-value best" id="best">0</div>
+      </div>
+    </div>
+
+    <div class="canvas-wrap">
+      <canvas id="game-canvas"></canvas>
+      <div class="overlay" id="overlay">
+        <div class="overlay-emoji" id="ov-emoji">🐍</div>
+        <h2 id="ov-title">Змейка</h2>
+        <p id="ov-text" class="ov-sub">Свайпай или жми стрелки, чтобы двигаться</p>
+        <button class="btn-start" id="ov-btn">▶ Играть</button>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div></div>
+      <button class="ctrl-btn" data-dir="up">▲</button>
+      <div></div>
+      <button class="ctrl-btn" data-dir="left">◀</button>
+      <button class="ctrl-btn" data-dir="down">▼</button>
+      <button class="ctrl-btn" data-dir="right">▶</button>
+    </div>
+  </div>
+
+  <script src="snake.js"></script>
+</body>
+</html>
