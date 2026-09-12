@@ -3,10 +3,11 @@
     {
       "id": "snake",
       "name": "Змейка",
-      "desc": "Классика. Ешь яблоки, расти, не врезайся.",
+      "desc": "Классика. Ешь яблоки, расти, не врезайся в стены и себя.",
       "emoji": "🐍",
       "color": "#10b981",
       "version": "1.0",
+      "updated": "2026-09-12",
       "url": "https://outcaststeam.github.io/LCS-GAMES/snake/index.html",
       "size": 15000
     }
